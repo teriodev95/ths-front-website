@@ -5,13 +5,18 @@
   --color-primary: #FFD93D;
   --color-secondary: #FF9A00;
   --color-text: #4F200D;
+  --color-light: #FFFFFF;
+  --color-gray: #A0A0A0;
 }
 
 * {
-  border-color: var(--color-text);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  background-color: var(--color-background);
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   color: var(--color-text);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
 }
